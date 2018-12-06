@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on The 2nd Fog Computing&#43; Workshop</title>
+    <link>https://ntusg-iot.github.io/fogcomputing/home/</link>
+    <description>Recent content in Homes on The 2nd Fog Computing&#43; Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://ntusg-iot.github.io/fogcomputing/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://ntusg-iot.github.io/fogcomputing/home/fogcomputing/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntusg-iot.github.io/fogcomputing/home/fogcomputing/</guid>
+      <description>**The 1st Workshop on LPWAN Systems and Applications** -- The 2nd Fog Computing+ Workshop: Trustworthy Fog SCSE Computer Networks and Communications Lab Nanyang Technological University (NTU), Singapore
+OpenFog Consortium Greater China Region
+Date: December 14th, 2018
+Venue: Lecture Theatre LT10, North Spine, NTU</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntusg-iot.github.io/fogcomputing/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntusg-iot.github.io/fogcomputing/home/about/</guid>
+      <description>About Fog Computing+ Fog computing is an emerging computing paradigm that distributes computing, storage, control and networking functions closer to the “things” along a cloud-to-thing continuum, enabling unprecedented level of intelligence to the physical world. This “Fog Computing+” workshop series, with strong support from the OpenFog Consortium Greater China Region and Nanyang Technological University, aim to bring together leading researchers regularly to discuss fog computing research and innovative applications (i.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntusg-iot.github.io/fogcomputing/home/cfp/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntusg-iot.github.io/fogcomputing/home/cfp/</guid>
+      <description>Call for Five-Minute Presentations This year’s workshop will include a number of presentations by research students and staff members. The length of each presentation is 5 minutes plus 2 ~ 3 minutes of Q/A. This session will provide a venue for students to present their existing studies and work in progress to receive feedback from the attendees of the workshop. Interested students and staff members can send the titles, abstracts, short bios to the Session Coordinator at SONG0167@e.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntusg-iot.github.io/fogcomputing/home/agenda/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntusg-iot.github.io/fogcomputing/home/agenda/</guid>
+      <description>Agenda    Time Session     9:45 - 10:00 AM Refreshment   10:00 - 10:05 AM Openning
+By Asst Prof Rui Tan   10:05 - 11:00 AM Keynote: Task Scheduling Algorithms in Fog Computing Networks
+By Prof Yang Yang (ShanghaiTech University)
+Abstract: Fog computing has recently attracted a lot of attentions from communication, computing and control communities. Together with cloud computing, edge computing, and sea computing, the research and development of fog computing technologies aims at supporting future intelligent services and societies by providing multi-layer computing resources and a horizontal service architecture across a variety of IoT networks and applications.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntusg-iot.github.io/fogcomputing/home/organizers/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntusg-iot.github.io/fogcomputing/home/organizers/</guid>
+      <description> Organization Committee Workshop Co-Chairs  Rui Tan Yonggang Wen  Honored Organization Committee Members  Wentong Cai Chengzheng Sun  Web Chair  Chaojie Gu  Five-Minute Presentation Coordinator  Qun Song SONG0167@e.ntu.edu.sg  </description>
+    </item>
+    
+  </channel>
+</rss>

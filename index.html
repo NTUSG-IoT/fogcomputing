@@ -1,0 +1,659 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.52" />
+  
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ntusg-iot.github.io/fogcomputing/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/fogcomputing/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://ntusg-iot.github.io/fogcomputing/index.xml" type="application/rss+xml" title="The 2nd Fog Computing&#43; Workshop">
+  <link rel="feed" href="https://ntusg-iot.github.io/fogcomputing/index.xml" type="application/rss+xml" title="The 2nd Fog Computing&#43; Workshop">
+  
+
+  <link rel="manifest" href="/fogcomputing/site.webmanifest">
+  <link rel="icon" type="image/png" href="/fogcomputing/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/fogcomputing/img/icon-192.png">
+
+  <link rel="canonical" href="https://ntusg-iot.github.io/fogcomputing/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="The 2nd Fog Computing&#43; Workshop">
+  <meta property="og:url" content="https://ntusg-iot.github.io/fogcomputing/">
+  <meta property="og:title" content="The 2nd Fog Computing&#43; Workshop">
+  <meta property="og:description" content=""><meta property="og:image" content="https://ntusg-iot.github.io/fogcomputing/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;08:00">
+  
+
+  
+
+  
+
+  <title>The 2nd Fog Computing&#43; Workshop</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/fogcomputing/">The 2nd Fog Computing&#43; Workshop</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/fogcomputing/#fogcomputing" data-target="#fogcomputing">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/fogcomputing/#about" data-target="#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/fogcomputing/#cfp" data-target="#cfp">
+            
+            <span>CFP</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/fogcomputing/#agenda" data-target="#agenda">
+            
+            <span>Agenda</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/fogcomputing/#organizers" data-target="#organizers">
+            
+            <span>Committee</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+  <section id="fogcomputing" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-lg-12">
+    
+
+<!-- # <span style="font-size:larger;">**The 1st Workshop on LPWAN Systems and Applications**</span> -->
+
+<h1 id="the-2nd-fog-computing-workshop-trustworthy-fog">The 2nd Fog Computing+ Workshop: Trustworthy Fog</h1>
+
+<p>SCSE Computer Networks and Communications Lab
+Nanyang Technological University (NTU), Singapore</p>
+
+<p>OpenFog Consortium Greater China Region</p>
+
+<p><strong>Date</strong>: December 14th, 2018<br>
+<strong>Venue</strong>: Lecture Theatre LT10, North Spine, NTU</p>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-lg-12">
+    
+
+<h1 id="about-fog-computing">About Fog Computing+</h1>
+
+<p>Fog computing is an emerging computing paradigm that distributes computing, storage, control and networking functions closer to the “things” along a cloud-to-thing continuum, enabling unprecedented level of intelligence to the physical world. This “Fog Computing+” workshop series, with strong support from the OpenFog Consortium Greater China Region and Nanyang Technological University, aim to bring together leading researchers regularly to discuss fog computing research and innovative applications (i.e., the “+”). Following the Inaugural workshop of this series in December 2017, this second workshop will have a theme of trustworthy fog. The workshop will consist of invited talks by distinguished speakers and five-minute presentations. Refreshment and lunch buffet will be provided to workshop attendees.</p>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="cfp" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-lg-12">
+    
+
+<h1 id="call-for-five-minute-presentations">Call for Five-Minute Presentations</h1>
+
+<p>This year’s workshop will include a number of presentations by research students and staff members. The length of each presentation is 5 minutes plus 2 ~ 3 minutes of Q/A. This session will provide a venue for students to present their existing studies and work in progress to receive feedback from the attendees of the workshop. Interested students and staff members can send the titles, abstracts, short bios to the Session Coordinator at <a href="mailto:SONG0167@e.ntu.edu.sg" target="_blank">SONG0167@e.ntu.edu.sg</a> on or before noon of December 13, 2018. The time slot allocation for the 5-min presentations will be announced by December 13, 2018. The titles, abstracts, and short bios will be included in the online agenda of the workshop.</p>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="agenda" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-lg-12">
+    
+
+<h1 id="agenda">Agenda</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left">Time</th>
+<th align="left">Session</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">9:45 - 10:00 AM</td>
+<td align="left">Refreshment</td>
+</tr>
+
+<tr>
+<td align="left">10:00 - 10:05 AM</td>
+<td align="left"><strong>Openning</strong><br>By <strong>Asst Prof Rui Tan</strong></td>
+</tr>
+
+<tr>
+<td align="left">10:05 - 11:00 AM</td>
+<td align="left"><strong>Keynote</strong>: Task Scheduling Algorithms in Fog Computing Networks<br>By <strong>Prof Yang Yang</strong> (ShanghaiTech University)<br><strong>Abstract</strong>: Fog computing has recently attracted a lot of attentions from communication, computing and control communities. Together with cloud computing, edge computing, and sea computing, the research and development of fog computing technologies aims at supporting future intelligent services and societies by providing multi-layer computing resources and a horizontal service architecture across a variety of IoT networks and applications. Specifically, fog computing enables on-site data processing, information retrieval, knowledge creation, performance optimization and real-time decisions in ambient service environments. This talk will review the challenges and solutions of task scheduling in different fog computing networks.<br><strong>Bio</strong>: Dr. Yang Yang is currently a tenured professor at ShanghaiTech University, China, serving as the Executive Dean of School of Creative Arts and a Co-Director of Shanghai Institute of Fog Computing Technology (SHIFT). Before joining ShanghaiTech in July 2018, he has held faculty positions at The Chinese University of Hong Kong, Brunel University (UK), University College London (UCL, UK), and SIMIT, Chinese Academy of Sciences (CAS, China) since 2002. His research interests include wireless sensor networks, Internet of Things, Fog computing, and Open 5G. He has published more than 180 papers and filed more than 80 technical patents in those areas. He is a Fellow of the IEEE, a Board Member and the Director of Greater China Region for the OpenFog Consortium.</td>
+</tr>
+
+<tr>
+<td align="left">11:00 - 11:40 AM</td>
+<td align="left"><strong>Invited talk</strong>: FogGrid: Transforming Microgrid Operations via Blockchain and Fog Computing in Singapore<br>By <strong>Assoc Prof Yonggang Wen</strong> (Nanyang Technological University)<br><strong>Abstract</strong>: (To be updated)<br><strong>Bio</strong>: Dr. Yonggang Wen (S99-M08-SM14) is an Associate Professor with School of Computer Science and Engineering (SCSE) at Nanyang Technological University (NTU), Singapore. He also serves as the Associate Dean (Research) at College of Engineering, and the Director of Nanyang Technopreneurship Centre at NTU. He received his PhD degree in Electrical Engineering and Computer Science (minor in Western Literature) from Massachusetts Institute of Technology (MIT), Cambridge, USA, in 2008. He has worked extensively in learning-based system prototyping and performance optimization for large-scale networked computer systems. Previously he led product development in content delivery network at Cisco, which had a revenue impact of 3 Billion US dollars globally. His work in Multi-Screen Cloud Social TV has been featured by global media (more than 1600 news articles from over 29 countries) and received 2013 ASEAN ICT Awards (Gold Medal). His recent work on Cloud3DView, as the only academia entry, has won 2016 ASEAN ICT Awards (Gold Medal) and 2015 Datacentre Dynamics Awards 2015 – APAC (‘Oscar’ award of data centre industry).  He is the sole winner of 2016 Nanyang Awards in Innovation and Entrepreneurship at NTU. He is a co-recipient of multiple best papers awards, including 2015 IEEE Multimedia Best Paper Award, 2016 IEEE Globecom, 2016 IEEE Infocom MuSIC Workshop, 2015 EAI/ICST Chinacom, 2014 IEEE WCSP, 2013 IEEE Globecom and 2012 IEEE EUC. He received 2016 IEEE ComSoc MMTC Distinguished Leadership Award. He serves on editorial boards for multiple transactions and journals, including IEEE Transactions on Circuits and Systems for Video Technology, IEEE Wireless Communication Magazine, IEEE Communications Survey &amp; Tutorials, IEEE Transactions on Multimedia, IEEE Transactions on Signal and Information Processing over Networks, IEEE Access Journal and Elsevier Ad Hoc Networks, and was elected as the Chair for IEEE ComSoc Multimedia Communication Technical Committee (2014-2016). His research interests include cloud computing, green data center, distributed machine learning, blockchain, big data analytics, multimedia network and mobile computing.</td>
+</tr>
+
+<tr>
+<td align="left">11:40 - noon</td>
+<td align="left">Three five-minute presentations</td>
+</tr>
+
+<tr>
+<td align="left">Noon - 1:00 PM</td>
+<td align="left">Lunch buffet</td>
+</tr>
+
+<tr>
+<td align="left">1:00 - 1:40 PM</td>
+<td align="left"><strong>Invited talk</strong>: Trusted “Embedded” Edge/Fog Computing ― Architecture, Technology and Implementation<br>By <strong>Prof John Kar-kin Zao</strong> (National Chiao Tung University)<br><strong>Abstract</strong>: Edge and Fog Computing aim at dispersing Cloud Computing services along the IoT-to-Cloud Continuum. To achieving this goal, Edge/Fog Computing architecture must ensure Trustworthiness of the Edge/Fog Nodes “embedded” into the Internet infrastructure and offer ambient end-to-end Information Security services throughout their communication fabric. In this talk, we expound the concept of Trusted “Embedded” Mixed-Computing Edge/Fog Nodes and the necessary technology to build these essential Dispersive Computing entities. We will also explore the ways to make our existing Fog Nodes “Trustworthy” and work with IEEE Standard Association and GlobalPlatform to develop the necessary standards.<br><strong>Bio</strong>: Prof. Zao is the founding chairman of the IEEE 1934 Standard Working Group on Fog Computing and Networking Architecture Framework and the founding vice-chairman of the new IEEE Standard Committee on Edge/Fog/Cloud Communications with IoT and Big Data. He is also the co-chairman of the Security Working Group of OpenFog Consortium and its Greater China Regional Committee. Currently, Prof. Zao is the Director of Intelligent Fog Computing Research Center at the Taiwan Hsinchu Chiao-Tung University, and the CEO of Taiwan Fog Computing Alliance. Prof. Zao is also an entrepreneur: he founded CerebraTek Co. Ltd. in the Taiwan Hsinchu Science Park and NGoggle Inc. in San Diego, USA in 2015 and 2016 respectively. Together, the two companies work developed Augmented Brain-Computer Interaction Systems for neural monitoring and rehabilita­tion based on visual stimulation. Prof. Zao received his PhD in Computer Science at Harvard University in 1995 and was elected a Senior Member of IEEE in 2001.</td>
+</tr>
+
+<tr>
+<td align="left">1:40 - 2:20 PM</td>
+<td align="left"><strong>Invited talk</strong>: Advantages and Risks of Sensing for Cyber-Physical Security<br>By <strong>Asst Prof Jun Han</strong> (National University of Singapore)<br><strong>Abstract</strong>: With the emergence of the Internet-of-Things (IoT) and Cyber-Physical Systems (CPS), we are witnessing a wealth of exciting applications that enable computational devices to interact with the physical world via overwhelming number of sensors and actuators. However, such interactions pose new challenges to traditional approaches of security and privacy. In this talk, I will present how I utilize sensor data to provide security and privacy protections for IoT/CPS scenarios, and further introduce novel security threats arising from similar sensor data. Specifically, I will highlight three of my recent projects that leverage sensor data for defense and attack scenarios in applications such as smart homes and semi-autonomous vehicles. Furthermore, I will introduce my future research directions such as identifying and defending against unforeseen security challenges from newer application domains such as smart vehicles, buildings, and cities.<br><strong>Bio</strong>: Jun Han is an Assistant Professor at the National University of Singapore with appointment in the Computer Science Department, School of Computing. His research interests lie at the intersection of sensing systems and security, and focuses on utilizing contextual information for security applications in the Internet-of-Things and Cyber-Physical Systems. He publishes across various research communities spanning security, sensing systems, and mobile computing (including S&amp;P/Oakland, CCS, IPSN, TOSN, and HotMobile). He received his Ph.D. from the Electrical and Computer Engineering Department at Carnegie Mellon University as a member of Mobile, Embedded, and Wireless (MEWS) Group. He received his M.S. and B.S. degrees in Electrical and Computer Engineering also at Carnegie Mellon University. Jun also worked as a software engineer at Samsung Electronics.</td>
+</tr>
+
+<tr>
+<td align="left">2:20 - 2:40 PM</td>
+<td align="left">Coffee break with refreshment</td>
+</tr>
+
+<tr>
+<td align="left">2:40 - 3:20 PM</td>
+<td align="left"><strong>Invited talk</strong>: Real-Time Data Stream Processing on Multi-Core Architectures<br>By <strong>Assoc Prof Bingsheng He</strong> (National University of Singapore)<br><strong>Abstract</strong>: We introduce BriskStream, an in-memory data stream processing (DSP) system specifically designed for efficient stream computation on shared-memory multi-socket multicores. BriskStream is developed based on the code-base of Storm and supports the same APIs. It inherits the basic architectures including pipelined processing and operator replication designs of modern DSP systems. In particular, each operator runs independently in a dedicated Java thread and its replication and placement (i.e., CPU affinity in our context) can be configured in different execution plans. BriskStream&rsquo;s key contribution is an execution plan optimization paradigm, which takes relative-location of each pair of producer-consumer operators in non-uniform memory access (NUMA) into consideration. As far as we are concerned, the resulting nontrivial placement optimization problem has not been previously studied on in-memory DSP. We show a branch and bound based approach with several heuristics to resolve the concerned problem. We also propose a simple iterative-based approach to identify the final execution plan considering both operator replication and placement configurations. Besides our NUMA-aware execution plan optimization paradigm, BriskStream also contains several nontrivial modifications that are specifically optimized for shared-memory multi-core architectures. The experimental evaluations demonstrate that BriskStream significantly outperforms the existing DSP systems including Apache Storm and Flink on shared-memory multicores server with eight CPU sockets, up to an order of magnitude of performance speedup.<br><strong>Bio</strong>: Dr. Bingsheng He is currently an Associate Professor at Department of Computer Science, National University of Singapore. Before that, he was a faculty member in Nanyang Technological University, Singapore (2010-2016), and held a research position in the System Research group of Microsoft Research Asia (2008-2010), where his major research was building high performance cloud computing systems for Microsoft. He got the Bachelor degree in Shanghai Jiao Tong University (1999-2003), and the Ph.D. degree in Hong Kong University of Science &amp; Technology (2003-2008). His current research interests include cloud computing, database systems and high performance computing. His papers are published in prestigious international journals (such as ACM TODS and IEEE TKDE/TPDS/TC) and proceedings (such as ACM SIGMOD, VLDB/PVLDB, ACM/IEEE SuperComputing, ACM HPDC, and ACM SoCC). He has been awarded with the IBM Ph.D. fellowship (2007-2008) and with NVIDIA Academic Partnership (2010-2011). Since 2010, he has (co-)chaired a number of international conferences and workshops, including IEEE CloudCom <sup>2014</sup>&frasl;<sub>2015</sub> and BigData Congress 2018. He has served in editor board of international journals, including IEEE Transactions on Cloud Computing (IEEE TCC), IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS) and Springer Journal of Distributed and Parallel Databases (DAPD).</td>
+</tr>
+
+<tr>
+<td align="left">3:20 - 4:00 PM</td>
+<td align="left"><strong>Invited talk</strong>: DRS: Resource Auto-Scaling for Real-Time Stream Analytics<br>By <strong>Dr. Tom Z.J. Fu</strong> (Advanced Digital Sciences Center, Illinois at Singapore)<br><strong>Abstract</strong>: We propose DRS, a dynamic resource scaling framework for cloud-based stream data analytics systems. DRS overcomes three fundamental challenges: (i) how to model the relationship between the provisioned resources and the application performance, (ii) where to best place resources, and (iii) how to measure the system load with minimal overhead. In particular, DRS includes an accurate performance model based on the theory of Jackson open queueing networks and is capable of handling arbitrary operator topologies, possibly with loops, splits and joins. Extensive experiments with real data show that DRS is capable of detecting sub-optimal resource allocation and making quick and effective resource adjustment.<br><strong>Bio</strong>: Tom Z. J. Fu obtained the B.Eng degree in Information Engineering from Shanghai Jiao Tong University in 2006. He received the M.Phil and the Ph.D degrees from the Department of Information Engineering at the Chinese University of Hong Kong in 2008 and 2013, respectively. In Oct 2013, he joined Advanced Digital Sciences Center, a Singapore-based research center established by the University of Illinois at Urbana-Champaign, and currently he is a senior research scientist &amp; analytics area programme manager. His research interests include cloud computing, real-time distributed stream analytics, software defined networking (SDN), Internet measurement and monitoring, Peer-to-Peer content distribution.</td>
+</tr>
+
+<tr>
+<td align="left">4:00 - 5:00 PM</td>
+<td align="left">Five-minute presentations</td>
+</tr>
+
+<tr>
+<td align="left">5:00 PM</td>
+<td align="left">End</td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="organizers" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-lg-12">
+    
+
+<h1 id="organization-committee">Organization Committee</h1>
+
+<h2 id="workshop-co-chairs">Workshop Co-Chairs</h2>
+
+<ul>
+<li><a href="http://www.ntu.edu.sg/home/tanrui/" target="_blank">Rui Tan</a></li>
+<li><a href="http://www.ntu.edu.sg/home/ygwen/" target="_blank">Yonggang Wen</a></li>
+</ul>
+
+<h2 id="honored-organization-committee-members">Honored Organization Committee Members</h2>
+
+<ul>
+<li><a href="http://www.ntu.edu.sg/home/aswtcai/" target="_blank">Wentong Cai</a></li>
+<li><a href="http://www.ntu.edu.sg/home/czsun/" target="_blank">Chengzheng Sun</a></li>
+</ul>
+
+<h2 id="web-chair">Web Chair</h2>
+
+<ul>
+<li><a href="https://chaojiegu.github.io" target="_blank">Chaojie Gu</a></li>
+</ul>
+
+<h2 id="five-minute-presentation-coordinator">Five-Minute Presentation Coordinator</h2>
+
+<ul>
+<li>Qun Song <a href="mailto:SONG0167@e.ntu.edu.sg" target="_blank">SONG0167@e.ntu.edu.sg</a></li>
+</ul>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/fogcomputing/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/fogcomputing/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
+
